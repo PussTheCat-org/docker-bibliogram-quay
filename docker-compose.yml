@@ -8,6 +8,6 @@ services:
     ports:
       - "127.0.0.1:10407:10407" # Replace with "3000:3000" if you don't use a reverse proxy
     volumes:
-      - "./db/:/app/db/
+      - "./db/:/app/db/"
       - "./config.js:/app/config.js"
     restart: unless-stopped

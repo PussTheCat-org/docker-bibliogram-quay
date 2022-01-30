@@ -8,6 +8,6 @@ RUN apk upgrade --no-cache \
 FROM node:lts-alpine as app
 WORKDIR /app
 COPY --from=build /app /app
-RUN apk add --no-cache graphicsmagick
+RUN apk add --no-cache graphicsmagick git
 EXPOSE 10407
 CMD ["npm", "start"]

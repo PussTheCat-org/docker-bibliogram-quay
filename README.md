@@ -1,4 +1,4 @@
-# docker-simplytranslate-quay
+# docker-bibliogram-quay
 
 A [Bibliogram](https://sr.ht/~cadence/bibliogram/) image, on Quay.
 

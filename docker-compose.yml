@@ -6,7 +6,7 @@ services:
     image: quay.io/pussthecatorg/bibliogram:latest
     container_name: bibliogram
     ports:
-      - "127.0.0.1:10407:10407" # Replace with "3000:3000" if you don't use a reverse proxy
+      - "127.0.0.1:10407:10407" # Replace with "10407:10407" if you don't use a reverse proxy
     volumes:
       - "./db/:/app/db/"
       - "./config.js:/app/config.js"

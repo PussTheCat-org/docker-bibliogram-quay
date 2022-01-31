@@ -1,4 +1,4 @@
-FROM node:lts-slim
+FROM node:14.4.0-buster
 WORKDIR /app
 RUN apt update -y && apt upgrade -y \
     && apt install -y git python3 make g++ graphicsmagick \

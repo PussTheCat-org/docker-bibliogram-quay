@@ -1,4 +1,4 @@
-FROM node:14.4.0-alpine
+FROM node:14.4.0-buster
 WORKDIR /app
 RUN apk upgrade --no-cache \
     && apk --no-cache add git python3-dev make g++ graphicsmagick \

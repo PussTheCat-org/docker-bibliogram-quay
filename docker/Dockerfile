@@ -1,4 +1,4 @@
-FROM node:14.4.0-buster
+FROM node:14-bullseye
 WORKDIR /app
 RUN apt update -y && apt upgrade -y \
     && apt install -y --no-install-recommends git python3 make g++ graphicsmagick \
